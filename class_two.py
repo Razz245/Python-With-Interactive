@@ -97,3 +97,11 @@ person = {
 
 print(person["skills"][1])  # Linux
 print(type(person))         # <class 'dict'>
+
+#Range Dara Type Example
+numbers = range(1, 10)
+nunbers_list = list(numbers)
+nunbers2=range(0,21,2)
+print(nunbers_list)  # [1, 2, 3, 4
+print(list(nunbers2)) # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+print(type(numbers))  # <class 'range'>
